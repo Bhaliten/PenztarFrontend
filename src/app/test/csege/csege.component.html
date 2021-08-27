@@ -1,0 +1,8 @@
+<p>csege works!</p>
+<button (click)="vote(true)"></button>
+
+<div *ngFor="let csegei of csegeiek">
+  {{csegei.id}} - {{csegei.name}} - {{csegei.weapon}}
+  <button (click)="attack(csegei.name, csegei.weapon)">Attack</button>
+  <br>
+</div>

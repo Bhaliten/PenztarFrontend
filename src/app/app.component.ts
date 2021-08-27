@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PenztarFrontend';
+  testData = 12;
+
+  onVoted($event: any) {
+    console.log($event)
+    alert();
+  }
 }
